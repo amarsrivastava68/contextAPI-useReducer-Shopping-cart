@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Toothbrush",
+        "price": 345,
+        "image": "https://images.unsplash.com/photo-1597961509090-45101abfa9cd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "inStock": 5,
+        "fastDelivery": true,
+        "ratings": 4
+    },
+    {
+        "id": 2,
+        "name": "Paintbrush",
+        "price": 245,
+        "image": "https://media.istockphoto.com/id/629800302/photo/paintbrush-with-yellow-paint.jpg?s=1024x1024&w=is&k=20&c=clTQgw1EtA3YnuvI9zZHUgkc1ety9-qR6oGxMrOmLSs=",
+        "inStock": 2,
+        "fastDelivery": true,
+        "ratings": 3
+    },
+    {
+        "id": 3,
+        "name": "Mobile",
+        "price": 745,
+        "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "inStock": 5,
+        "fastDelivery": false,
+        "ratings": 2
+    },
+    {
+        "id": 4,
+        "name": "Laptop",
+        "price": 1435,
+        "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?q=80&w=1864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "inStock": 21,
+        "fastDelivery": false,
+        "ratings": 5
+    },
+    {
+        "id": 5,
+        "name": "Handwash",
+        "price": 5435,
+        "image": "https://images.unsplash.com/photo-1604603815783-2bd94c5a819f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "inStock": 4,
+        "fastDelivery": true,
+        "ratings": 1
+    },
+    {
+        "id": 6,
+        "name": "Tshirt",
+        "price": 325,
+        "image": "https://plus.unsplash.com/premium_photo-1673356301514-2cad91907f74?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "inStock": 3,
+        "fastDelivery": true,
+        "ratings": 4
+    },
+    {
+        "id": 7,
+        "name": "Jeans",
+        "price": 385,
+        "image": "https://plus.unsplash.com/premium_photo-1674828600712-7d0caab39109?q=80&w=1908&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "inStock": 50,
+        "fastDelivery": false,
+        "ratings": 3
+    },
+    {
+        "id": 8,
+        "name": "Clock",
+        "price": 783,
+        "image": "https://media.istockphoto.com/id/147323173/photo/four-oclock.jpg?s=2048x2048&w=is&k=20&c=bFufBuUejEX1a0DRIjc2EMjk_cEKuvGmN7z7fPSzNFU=clock%3A%3Areduced-affiliates%3Aquarter",
+        "inStock": 6,
+        "fastDelivery": false,
+        "ratings": 2
+    },
+    {
+        "id": 9,
+        "name": "TV",
+        "price": 925,
+        "image": "https://plus.unsplash.com/premium_photo-1664392122271-a1aedb05a7c6?q=80&w=1949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "inStock": 7,
+        "fastDelivery": true,
+        "ratings": 5
+    },
+    {
+        "id": 10,
+        "name": "AC",
+        "price": 6245,
+        "image": "https://plus.unsplash.com/premium_photo-1679943423706-570c6462f9a4?q=80&w=1605&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "inStock": 9,
+        "fastDelivery": true,
+        "ratings": 1
+    }
+]
