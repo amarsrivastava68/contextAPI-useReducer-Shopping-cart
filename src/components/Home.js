@@ -11,8 +11,8 @@ const Home = () => {
      <Filters/>
      <div className='productContainer '>
         {
-            state.products.map((item , key)=>(
-                <SingleProduct prod ={item} />
+            state.products.map((item )=>(
+                <SingleProduct prod ={item} key={item.id} />
             ))
         }
      </div>

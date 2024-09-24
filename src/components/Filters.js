@@ -1,10 +1,8 @@
+import { useState } from "react";
 import { Button, Form } from "react-bootstrap";
-
-
+import Rating from './Rating'
 const Filters = () => {
-  
-
-  // make state for rating
+  const [rate, setRate] = useState(3);
 
   return (
     <div className="filters">
@@ -16,7 +14,6 @@ const Filters = () => {
           name="group1"
           type="radio"
           id={`inline-1`}
-        
         />
       </span>
       <span>
@@ -26,7 +23,6 @@ const Filters = () => {
           name="group1"
           type="radio"
           id={`inline-2`}
-        
         />
       </span>
       <span>
@@ -36,7 +32,6 @@ const Filters = () => {
           name="group1"
           type="checkbox"
           id={`inline-3`}
-        
         />
       </span>
       <span>
@@ -46,16 +41,15 @@ const Filters = () => {
           name="group1"
           type="checkbox"
           id={`inline-4`}
-          
         />
       </span>
-      
-      <Button
-        variant="light"
-       
-      >
-        Clear Filters
-      </Button>
+      <span>
+        <label style={{paddingRight : 10}}>
+          Rating : 
+        </label>
+        <Rating  rating={rate} onClick={(i)=>{setRate(i)}} />
+        </span>
+      <Button variant="light">Clear Filters</Button>
     </div>
   );
 };
