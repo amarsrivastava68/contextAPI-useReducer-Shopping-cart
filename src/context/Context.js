@@ -15,6 +15,7 @@ const Context = ({ children }) => {
         products : products  , 
         cart : []
     })
+  
   return (
     <cart.Provider value={{ state, dispatch }}>
       {children}
